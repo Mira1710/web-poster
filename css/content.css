@@ -1,0 +1,60 @@
+body{
+    background-color: #000000;
+    width: 100%;
+    margin: 2vw;
+    overflow-x: hidden;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #ffffff;
+    }
+    .first_screen { }
+        
+       .images_first {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+        .jazz_img {
+
+        }
+        .ethno_img {
+        }
+        .name_first {
+            display: flex;
+            justify-content: center;
+
+        }
+        .Im_txt {
+            width: 44px;
+            text-align: center;
+            font-size: 46px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .hl_txt {
+text-align: center;
+font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+        .second_screen {
+    }
+    .three_screen {
+    }
+    .four_screen {
+    }
+    .five_screen {
+    }
