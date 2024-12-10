@@ -1,60 +1,232 @@
 body{
     background-color: #000000;
     width: 100%;
-    margin: 2vw;
-    overflow-x: hidden;
+    margin: 1vw;
     font-family: "IBM Plex Sans", sans-serif;
     font-optical-sizing: auto;
     color: #ffffff;
+    overflow-x: hidden;
     }
-    .first_screen { }
+  
+    .first_screen, .img_first {
+        width: 100%;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+    .img_music{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .jazz, .ethno {
+        width: 15vw;
+        position: relative;
         
-       .images_first {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: auto;
-        }
-        .jazz_img {
+    }
+.rock {
+    margin-left: 0vw;
+    width: 10vw;
+    display: flex;
+    position:relative;
+}
 
-        }
-        .ethno_img {
-        }
-        .name_first {
-            display: flex;
-            justify-content: center;
+.classic{
+    margin-left: 10vw;
+    width: 15vw;
+    display: flex;
 
-        }
-        .Im_txt {
-            width: 44px;
-            text-align: center;
-            font-size: 46px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-transform: uppercase;
-        }
-        .hl_txt {
+}
+.rock_img{
+    width: 20vw;
+    position: relative;
+    height: 60vh;
+    margin-top: 40vh;
+}
+.class_img {
+    width: 25vw;
+    position: relative;
+    height: 70vh;
+    margin-top: 30vh;
+}
+.im_txt{
 text-align: center;
-font-size: 46px;
+font-family: "IBM Plex Sans";
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+position: absolute;
+margin-left: 17vw;
+animation: moveUpDown 3s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% {top: 0; }
+    50% { top: 30vh;}
+  }  
+
+
+.hl_txt{
+text-align: center;
+font-family: "IBM Plex Sans";
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+position: absolute;
+margin-left: 21vw;
+animation: moveUpDown 5s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% {top: 0; }
+    50% { top: 30vh;}
+  }
+
+.jz_txt, .rc_txt, .pop_txt  {
+    text-align: center;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+}
+.jz_txt{
+    margin-left: 38vw;
+    margin-top: 32vh;
+    animation: moveRightLeft1 3s ease-in-out infinite;
+    }
+@keyframes moveRightLeft1 {
+        0%, 100% { transform: translateX(0);}
+          50% { transform: translateX(-12vw);}
+    }
+.rc_txt {
+    margin-left: 50%;
+    margin-top: 10%;
+    animation: moveRightLeft 3s ease-in-out infinite;
+}
+@keyframes moveRightLeft {
+    0%, 100% { transform: translateX(0);}
+      50% { transform: translateX(25vw);}
+}
+.pop_txt {
+    margin-left: 89vw;
+    margin-top: 22vh;
+    animation: moveUpDown2 5s ease-in-out infinite;
+}
+@keyframes moveUpDown2 {
+    0%, 100% {top: 0; }
+    50% { top: -20vh;}
+  }
+.cls_txt{
+text-align: center;
+font-size: 7vw;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+width: 12vw;
+height: 55vh;
+position: absolute;
+margin-left: 50vw;
+margin-top: 45.5vh;
+animation: scale1 3s ease-in-out infinite;
+}
+@keyframes scale1{
+    0%, 100% {transform: scale(1)}
+    50%{ transform: scale(1.5)}
+}
+.ethno_txt{
+text-align: center;
+font-size: 3vw;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-transform: uppercase;
-        }
+position: absolute;
+margin-left: 40vw;
+animation: scale 3s ease-in-out infinite;
+}
+@keyframes scale{
+    0%, 100% {transform: scale(1)}
+    50%{ transform: scale(2.5)}
+}
+
+.second_screen{
+    width: 100%;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        margin-top: 10vh;
+}
+.txt{
+font-size: 6vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+}
+.square{
+    width: 40vw;
+    height: 30vh;
+    background-color: #5B2B99;
+    margin-top: 75vh;
+}
+.m { margin-top: 50vh;
+    margin-left: 2vw;
+}
+.a {
+    margin-top: 30vh;
+    margin-left: 4vw;
+}
+.s {
+    margin-top: 30vh;
+    margin-left: 25vw;
+}
+.t {
+    margin-top: 35vh;
+    margin-left: 13vw;
+}
+.e {
+    margin-top: 55vh;
+    margin-left: 20vw;
+}
+.r {
+    margin-top: 40vh;
+    margin-left: 35vw;
+}
+.c {
+    margin-top: 5vh;
+    margin-left: 1vw;
+}
+.l {
+    margin-top: 8vh;
+    margin-left: 20vw;
+}
+.s1{margin-top: 12vh;
+    margin-left: 9vw;
+
+}
+.s2 {
+    margin-top: 50vh;
+    margin-left: 29vw;
+}
+.a1{margin-top: 10vh;
+    margin-left: 29vw;
+
+}
+
+.Master_txt{font-size: 6vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 1vw;
+}
+
+.logo_img {
+    position: absolute;
+    width: 50%;
+    height: auto;
+
+}
     
-    
-    
-    
-    
-    
-    
-    
-        .second_screen {
-    }
-    .three_screen {
-    }
-    .four_screen {
-    }
-    .five_screen {
-    }
