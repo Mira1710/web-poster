@@ -40,13 +40,13 @@ body{
 .rock_img{
     width: 20vw;
     position: relative;
-    height: 60vh;
+    height: 30vw;
     margin-top: 40vh;
 }
 .class_img {
     width: 25vw;
     position: relative;
-    height: 70vh;
+    height: 35vw;
     margin-top: 30vh;
 }
 .im_txt{
@@ -215,7 +215,7 @@ position: absolute;
 
 }
 
-.Master_txt{font-size: 6vw;
+.Master_txt{font-size: 5vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -223,10 +223,59 @@ position: absolute;
     margin-left: 1vw;
 }
 
-.logo_img {
+.logo_svg{
+    position: relative;
+    width: 50vw;
+    margin-left: 10vw;
+    animation: animate 5s linear infinite;
+    
+}
+    @keyframes animate{
+        0% {stroke-dashoffset: 1500;
+            stroke-dasharray: 1500}
+        100% {stroke-dashoffset: 0;
+            stroke-dasharray: 1500}
+  
+    }
+
+    .first_part {
+        width: 50%;
+        position: relative;
+    }
+    .stress_txt {
+ font-size: 3.5vw;
+ font-weight: 500;
+ text-transform: uppercase;
+ margin-left: 20vw;
+    }
+    .therapy_txt{
+ font-size: 8vw;
+ font-weight: 500;
+ text-transform: uppercase;
+ rotate: -90deg;
+position: absolute;
+margin-left: -13vw;
+
+    }
+    .second_part {
+        position: relative;
+    }
+    .two {
+        margin-left: 50vw;
+        margin-top: -5vw;
+
+    }
+.thrp{
     position: absolute;
-    width: 50%;
-    height: auto;
+    border-radius: 1px;
+    background: #5B2B99;
+    rotate: none;
+    margin-left: 60vw;
 
 }
-    
+
+.svg_msc{
+    width: 100%;
+}
+.music_svg{;
+}
