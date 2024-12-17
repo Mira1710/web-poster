@@ -3,6 +3,7 @@
         "pranaygp.vscode-css-peek",
         "diz.ecsstractor-port",
         "solnurkarim.html-to-css-autocompletion",
-        "jasonlhy.vscode-browser-sync"
+        "jasonlhy.vscode-browser-sync",
+        "bito.bito"
     ]
 }
