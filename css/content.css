@@ -189,7 +189,7 @@ animation: scale 3s ease-in-out infinite;
 
 
 .second_screen{
-    width: 100%;
+    width: 100vw;
         display: flex;
         position: relative;
         overflow: hidden;
@@ -333,17 +333,55 @@ position: absolute;
   
     }
 
-    .first_part {
-        width: 50vw;
-        position: relative;
-        margin-top: 5vw;
+    .three_screen{
+        overflow: hidden;
+        
     }
+
+    .first_part {
+        margin-top: 5vw;
+        position: relative;
+    }
+    .wave{
+        position: absolute;
+        width: 33vw;
+        margin-top: -45vw;
+        opacity: 0.7;
+        animation: effect 6s infinite alternate;
+}
+/* @keyframes animate{
+    0% {stroke-dashoffset: 1500;
+        stroke-dasharray: 1500}
+    100% {stroke-dashoffset: 0;
+        stroke-dasharray: 1500}
+
+} */
+.wave2{
+    position: absolute;
+    width: 35vw;
+    margin-top: -75vw;
+    margin-left: 70vw;
+    transform: rotate(20deg);
+opacity: 0.7;
+/* animation: animate2 5s linear infinite; */
+stroke-dashoffset: 15200;
+        stroke-dasharray: 0;
+}
+/* @keyframes animate{
+    0% {stroke-dashoffset: 1500;
+        stroke-dasharray: 1500}
+    100% {stroke-dashoffset: 0;
+        stroke-dasharray: 1500}
+
+} */
+
     .stress_txt {
  font-size: 3.5vw;
  font-weight: 500;
  text-transform: uppercase;
  margin-left: 20vw;
 }
+
 .stress_txt:hover{
 transform: rotate(45deg);
 }    
@@ -374,34 +412,11 @@ color: transparent;
   }
 
 
-.waves{
-    position: absolute;
-    width: 60vw;
-    height: 50vw;
-    margin-left: -10vw;
-    margin-top: -10vw;
-    stroke-dashoffset: 0;
-        stroke-dasharray: 0;
-    animation: animate1 5s linear infinite;
-}
-/* @keyframes animate{
-    0% {stroke-dashoffset: 1500;
-        stroke-dasharray: 1500}
-    100% {stroke-dashoffset: 0;
-        stroke-dasharray: 1500}
-
-} */
-
-
-    .second_part {
-        position: relative;
-        margin-top: 5vw;
-    }
-    .two {
+.two {
         font-size: 3.5vw;
  font-weight: 500;
  text-transform: uppercase;
-        margin-left: 50vw;
+        margin-left: 60vw;
         margin-top: -5vw;
 
     }
@@ -414,7 +429,6 @@ color: transparent;
     font-size: 8vw;
  font-weight: 500;
  text-transform: uppercase;
-    position: absolute;
     border-radius: 3px;
     background: #5B2B99;
     rotate: none;
@@ -426,28 +440,11 @@ color: transparent;
 
 
 
-.waves2{
-    position: absolute;
-    width: 60vw;
-    height: 50vw;
-    margin-top: -50vw;
-    margin-left: 50vw;
-    animation: animate 5s linear infinite;
-}
-/* @keyframes animate{
-    0% {stroke-dashoffset: 1500;
-        stroke-dasharray: 1500}
-    100% {stroke-dashoffset: 0;
-        stroke-dasharray: 1500}
-
-} */
-
 
 
 
 .four_screen{
     overflow: hidden;
-    margin-top: 25vw;
     display: flex;
 }
 
@@ -541,7 +538,7 @@ margin: 15vw;
 color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: url(../img/wave3.svg);
+    background-image: url(../img/Vector34.svg);
     animation: gradientAnimation 3s linear infinite;
     animation-direction: alternate;
 }
