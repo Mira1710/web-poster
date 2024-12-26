@@ -238,51 +238,51 @@ position: absolute;
         opacity: 1;
     }
     25% {
-        transform: translateY(-200vw); 
+        transform: translateY(-100vw); 
         opacity: 0;
     }
     26%, 100% {
-        transform: translateY(-300vw);
+        transform: translateY(-600vw);
         opacity: 0; 
     }
 }
 .a {
     margin-top: 0vw;
     margin-left: 6vw;
-    animation: text 2.5s ease-in-out infinite;
+    animation: text 2.9s ease-in-out infinite;
 }
 .s {
     margin-top: 2vw;
     margin-left: 25vw;
-    animation: text 2.5s ease-in-out infinite;
+    animation: text 2.1s ease-in-out infinite;
 }
 .t {
     margin-top: 17vw;
     margin-left: 13vw;
-    animation: text 3s ease-in-out infinite;
+    animation: text 2.2s ease-in-out infinite;
 }
 .e {
     margin-top: 14vw;
     margin-left: 20vw;
-    animation: text 2.5s ease-in-out infinite;
+    animation: text 2.3s ease-in-out infinite;
 }
 .r {
     margin-top: 6vw;
     margin-left: 35vw;
-    animation: text 3s ease-in-out infinite;
+    animation: text 2.5s ease-in-out infinite;
 }
 .c {
     margin-left: 2vw;
-    animation: text 2.5s ease-in-out infinite;
+    animation: text 2.4s ease-in-out infinite;
 }
 .l {
     margin-top: 1vw;
     margin-left: 18vw;
-    animation: text 3s ease-in-out infinite;
+    animation: text 2.5s ease-in-out infinite;
 }
 .s1{margin-top: 10vw;
     margin-left: 10vw;
-    animation: text 2.5s ease-in-out infinite;
+    animation: text 2.7s ease-in-out infinite;
 
 }
 .s2 {
@@ -321,6 +321,7 @@ position: absolute;
 .logo_svg{
     position: relative;
     width: 50vw;
+    height: 53vw;
     margin-left: 5vw;
     animation: animate 5s linear infinite;
     
@@ -342,38 +343,24 @@ position: absolute;
         margin-top: 5vw;
         position: relative;
     }
-    .wave{
+    .waves{
         position: absolute;
-        width: 33vw;
-        margin-top: -45vw;
-        opacity: 0.7;
-        animation: effect 6s infinite alternate;
-}
-/* @keyframes animate{
-    0% {stroke-dashoffset: 1500;
-        stroke-dasharray: 1500}
-    100% {stroke-dashoffset: 0;
-        stroke-dasharray: 1500}
-
-} */
-.wave2{
-    position: absolute;
-    width: 35vw;
-    margin-top: -75vw;
-    margin-left: 70vw;
-    transform: rotate(20deg);
-opacity: 0.7;
-/* animation: animate2 5s linear infinite; */
-stroke-dashoffset: 15200;
-        stroke-dasharray: 0;
-}
-/* @keyframes animate{
-    0% {stroke-dashoffset: 1500;
-        stroke-dasharray: 1500}
-    100% {stroke-dashoffset: 0;
-        stroke-dasharray: 1500}
-
-} */
+    }
+    .vector{
+        animation: scale 3s linear infinite;
+    }
+    @keyframes scale {
+        0%{ transform: scale(1);}
+        50%{ transform: scale(2);}
+        100%{ transform: scale(1);}
+    }
+    .vector2{
+        transform: scale(0.7);
+        position: absolute;
+        margin-top: -40vw;
+        margin-left: 60vw;
+        
+    }
 
     .stress_txt {
  font-size: 3.5vw;
