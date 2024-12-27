@@ -354,6 +354,7 @@ position: absolute;
     .vector{
         width: 50vw;
         animation: scale 5s linear infinite;
+        margin-top: -10vw;
     }
     @keyframes scale {
         0%{ transform: scale(1);}
