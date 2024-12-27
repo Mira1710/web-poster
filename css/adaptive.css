@@ -1,0 +1,42 @@
+
+  @media only screen and (min-device-width: 360px) and (max-device-width: 768px) {
+    .first_screen{
+        width: 100vw;
+    }
+    .jazz, .ethno{
+        width: 30vw;
+    }
+    .im_txt{
+        font-size: 6vw;
+        margin-left: 35vw;
+    }
+    .hl_txt{
+        font-size: 6vw;
+        margin-left: 40vw;
+    }
+    .jz_txt{
+        font-size: 6.5vw;
+        margin-left: 80vw;
+    }
+    .rock_img{
+        width: 40vw;
+    height: 60vw;
+    margin-top: 33vw;
+margin-left: 20vw;
+    }
+    .classic, .rc_txt, .pop_txt, .cls_txt, .ethno_txt{
+    display: none;
+    }
+  
+    
+
+
+
+
+
+
+
+
+
+
+}
